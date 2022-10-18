@@ -174,7 +174,7 @@
     }
 
     input {
-        padding: 10px 20px;
+        padding: 10px 30px;
         margin: 5px;
         border-radius: 8px;
     }
@@ -214,10 +214,19 @@
 
     .input-group {
         /* margin-left: 80px; */
+        /* overflow: hidden; */
     }
+    .input-group{
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+    }
+
 
      span { 
         /* left: 0; */
+        top: 0;
+        right: 8px;
         position: absolute;
         cursor: pointer;
         background-color: #e1e4e6;
@@ -228,6 +237,4 @@
 
     }
 
-    /* .form-control { */
-        position: absolute;
-    }
+    
